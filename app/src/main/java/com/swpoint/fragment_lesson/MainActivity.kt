@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.swpoint.fragment_lesson.ui.main.MainFragment
+import androidx.activity.ComponentActivity
 
 class MainActivity : AppCompatActivity() {
 
