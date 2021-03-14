@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.main_activity)
-
+        val intent = Intent(this, sec::class.java)
         //test comment
         if (savedInstanceState == null) {
             supportFragmentManager.beginTransaction()
