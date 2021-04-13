@@ -1,4 +1,4 @@
-package com.swpoint.fragment_lesson
+package com.androiddevs.mvvmnewsapp
 
 import org.junit.Test
 

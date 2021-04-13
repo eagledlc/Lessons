@@ -1,11 +1,12 @@
-package com.swpoint.fragment_lesson
+package com.androiddevs.mvvmnewsapp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class sec : AppCompatActivity() {
+class MainActivity : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_sec)
+        setContentView(R.layout.activity_main)
     }
 }
